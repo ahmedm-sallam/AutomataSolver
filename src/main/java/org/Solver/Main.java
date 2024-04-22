@@ -8,13 +8,19 @@ public class Main {
         try {
             Scanner input = new Scanner(new File("input.txt"));
             PrintWriter output = new PrintWriter(new FileWriter("output.txt"));
-            while (input.hasNextLine())
-            {
+            while (input.hasNextLine()) {
                 String data = input.nextLine();
-                switch (data)
-                {
+                switch (data) {
                     case "1" -> Problem1.validate(input, output);
-                    case "2" -> Problem2.validate(input, output);
+//                    case "2" -> Problem2.validate(input, output);
+//                    case "3" -> Problem3.validate(input, output);
+//                    case "4" -> Problem4.validate(input, output);
+//                    case "5" -> Problem5.validate(input, output);
+//                    case "6" -> Problem6.validate(input, output);
+//                    case "7" -> Problem7.validate(input, output);
+//                    case "8" -> Problem8.validate(input, output);
+//                    case "9" -> Problem9.validate(input, output);
+//                    case "10" -> Problem10.validate(input, output);
 
 
                 }
