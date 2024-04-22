@@ -5,17 +5,29 @@ False
 True
 End of problem 1
 --------------------
-Problem 2 - String Validation (Even number of '0's followed by '1'): 
-False
-False
-False
-False
-End of problem 2
---------------------
 Problem 1 - String Validation (No 'ba' substring): 
-True
 True
 True
 True
 End of problem 1
 --------------------
+Problem 8 :
+Output: True
+Output: True
+Output: True
+Output: False
+End of problem 8
+--------------------
+Problem 9 :
+Output: True
+Output: True
+Output: True
+Output: False
+End of problem 9
+--------------------
+Problem 10 :
+Output: True
+Output: True
+Output: True
+Output: False
+End of problem 10
