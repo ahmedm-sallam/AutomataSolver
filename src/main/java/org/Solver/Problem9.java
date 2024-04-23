@@ -14,8 +14,6 @@ public class Problem9 {
         problem9.alphabet = new HashSet<>(Arrays.asList('0', '1'));
         problem9.addTransition(0, '1', 1);
         problem9.addTransition(1, '0', 0);
-        problem9.addTransition(0, '1', 0);
-
         problem9.startStates = new HashSet<>(Arrays.asList(0, 1));
         problem9.acceptingStates = new HashSet<>(Arrays.asList(0, 1));
 

@@ -1,5 +1,6 @@
 package org.Solver;
 
+import javax.lang.model.type.NullType;
 import java.io.*;
 import java.util.*;
 
@@ -29,12 +30,24 @@ public class NFASimulator {
     {
 
 
-
             Set<Integer> currentStates = new HashSet<>(startStates);
 
 
             for (char symbol : str.toCharArray())
             {
+
+                Set<Integer> epsilonState = new HashSet<>();
+                for (int state : currentStates)
+                {
+                    if (transition.containsKey(state) && transition.get(state).containsKey('_'))
+
+                    {
+                        epsilonState.addAll(transition.get(state).get('_'));
+                    }
+                }
+
+                currentStates.addAll(epsilonState);
+
                 Set<Integer> nextStates = new HashSet<>();
 
                 for (int state : currentStates)
@@ -46,6 +59,18 @@ public class NFASimulator {
                 }
                 currentStates = nextStates;
             }
+
+
+
+        Set<Integer> newEpsilonStates = new HashSet<>();
+        for (int state : currentStates) {
+            if (transition.containsKey(state) && transition.get(state).containsKey('_')) {
+                newEpsilonStates.addAll(transition.get(state).get('_'));
+            }
+        }
+        currentStates.addAll(newEpsilonStates);
+
+
 
             boolean isAccepted = currentStates.stream().anyMatch(acceptingStates::contains);
 
