@@ -14,8 +14,8 @@ public class Main {
                     case "1" -> Problem1.validate(input, output);
 //                    case "2" -> Problem2.validate(input, output);
 //                    case "3" -> Problem3.validate(input, output);
-//                    case "4" -> Problem4.validate(input, output);
-//                    case "5" -> Problem5.validate(input, output);
+                    case "4" -> Problem4.validate(input, output);
+                    case "5" -> Problem5.validate(input, output);
 //                    case "6" -> Problem6.validate(input, output);
 //                    case "7" -> Problem7.validate(input, output);
 //                    case "8" -> Problem8.validate(input, output);

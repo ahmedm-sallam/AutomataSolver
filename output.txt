@@ -5,12 +5,25 @@ False
 True
 End of problem 1
 --------------------
-Problem 2 - String Validation (Even number of '0's followed by '1'): 
+Problem 1 - String Validation (No 'ba' substring): 
+True
+True
+True
+End of problem 1
+--------------------
+Problem 4 - String Validation (Starting and ending with the same characters): 
+True
+True
+True
 False
+End of problem 4
+--------------------
+Problem 5 - binary strings that divisible by 4 :
+True
+True
+True
 False
-False
-False
-End of problem 2
+End of problem 5
 --------------------
 Problem 1 - String Validation (No 'ba' substring): 
 True
