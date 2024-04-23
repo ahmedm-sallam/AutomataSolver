@@ -5,6 +5,7 @@ False
 True
 End of problem 1
 --------------------
+<<<<<<< HEAD
 Problem 1 - String Validation (No 'ba' substring): 
 True
 True
@@ -25,10 +26,31 @@ True
 False
 End of problem 5
 --------------------
+=======
+>>>>>>> 450aa94ae2fcc4b7bf896fa7b625895dd6e968a9
 Problem 1 - String Validation (No 'ba' substring): 
-True
 True
 True
 True
 End of problem 1
 --------------------
+Problem 8 :
+Output: True
+Output: True
+Output: True
+Output: False
+End of problem 8
+--------------------
+Problem 9 :
+Output: True
+Output: True
+Output: True
+Output: False
+End of problem 9
+--------------------
+Problem 10 :
+Output: True
+Output: True
+Output: True
+Output: False
+End of problem 10

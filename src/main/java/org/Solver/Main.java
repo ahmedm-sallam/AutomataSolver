@@ -18,9 +18,9 @@ public class Main {
                     case "5" -> Problem5.validate(input, output);
 //                    case "6" -> Problem6.validate(input, output);
 //                    case "7" -> Problem7.validate(input, output);
-//                    case "8" -> Problem8.validate(input, output);
-//                    case "9" -> Problem9.validate(input, output);
-//                    case "10" -> Problem10.validate(input, output);
+                    case "8" -> Problem8.NFA_validate(input, output);
+                    case "9" -> Problem9.NFA_validate(input, output);
+                    case "10" -> Problem10.NFA_validate(input, output);
 
 
                 }
