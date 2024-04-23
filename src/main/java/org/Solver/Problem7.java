@@ -1,6 +1,6 @@
 package org.Solver;
-import java.io.;
-import java.util.;
+import java.io.*;
+import java.util.*;
 
 public class Problem7 {
 

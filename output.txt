@@ -5,11 +5,19 @@ False
 True
 End of problem 1
 --------------------
-Problem 1 - String Validation (No 'ba' substring): 
+Problem 2 - String Validation (even number of 0's f ollowed by single 1 ): 
 True
 True
+False
+False
+End of problem 2
+--------------------
+Problem 3 - String Validation (odd number of x's ): 
 True
-End of problem 1
+True
+False
+True
+End of problem 3
 --------------------
 Problem 4 - String Validation (Starting and ending with the same characters): 
 True
@@ -24,6 +32,20 @@ True
 True
 False
 End of problem 5
+--------------------
+Problem 6: 
+True
+True
+True
+False
+End of problem 6
+--------------------
+Problem 7: 
+True
+True
+True
+False
+End of problem 7
 --------------------
 Problem 8 :
 Output: True

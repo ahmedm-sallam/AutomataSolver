@@ -36,7 +36,9 @@ public class Problem1 {
         while (input.hasNextLine()) {
             String str = input.nextLine();
             if (str.equals("1")) continue;
+            if(str.equals("001")) break;
             if (str.equals("end")) break;
+            System.out.println(str );
             boolean accepted = isAccepted(str);
             output.println((accepted ? "True" : "False"));
         }
