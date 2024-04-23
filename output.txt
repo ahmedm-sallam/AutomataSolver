@@ -40,11 +40,11 @@ True
 False
 End of problem 6
 --------------------
-Problem 7: 
-True
-True
-True
-False
+Problem 7 :
+Output: True
+Output: True
+Output: True
+Output: False
 End of problem 7
 --------------------
 Problem 8 :
